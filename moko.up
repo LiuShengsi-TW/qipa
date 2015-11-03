@@ -1,0 +1,9 @@
+resource :plant do |p|
+	p.string :name
+	p.string :description
+end
+
+resource :recommendation do |r|
+	r.string :name
+	r.string :description
+end

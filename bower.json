@@ -1,0 +1,25 @@
+{
+  "name": "qipa-frontend",
+  "authors": [
+    "Liu Shengsi <ssliu@thoughtworks.com>"
+  ],
+  "description": "sisi's application about plant",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "angularjs#~1.4.7",
+    "angular-route": "~1.4.7",
+    "angular-resource": "~1.4.7"
+  }
+}

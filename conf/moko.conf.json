@@ -1,0 +1,148 @@
+[{
+    "request": {
+        "method": "get",
+        "uri": "/plants"
+    },
+    "response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/plants.json"
+    }
+},
+{
+    "request": {
+        "method": "get",
+        "uri": {
+        	"match": "/plants/\\d+"
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/plants-single.json"
+    }
+},
+{
+    "request": {
+        "method": "post",
+        "uri": "/plants"
+    },
+    "response": {
+        "status": 201,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/plants.json"
+    }
+},
+{
+    "request": {
+        "method": "put",
+        "uri": {
+            "match": "/plants/\\d+"
+        }
+	},
+	"response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/plants.json"
+    }	
+},
+{
+    "request": {
+        "method": "delete",
+        "uri": {
+            "match": "/plants/\\d+"
+        }
+	},
+	"response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },
+        "file": "resources/plants.json"
+    }
+}
+,{
+    "request": {
+        "method": "get",
+        "uri": "/recommendations"
+    },
+    "response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/recommendations.json"
+    }
+},
+{
+    "request": {
+        "method": "get",
+        "uri": {
+        	"match": "/recommendations/\\d+"
+        }
+    },
+    "response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/recommendations-single.json"
+    }
+},
+{
+    "request": {
+        "method": "post",
+        "uri": "/recommendations"
+    },
+    "response": {
+        "status": 201,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/recommendations.json"
+    }
+},
+{
+    "request": {
+        "method": "put",
+        "uri": {
+            "match": "/recommendations/\\d+"
+        }
+	},
+	"response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },        
+        "file": "resources/recommendations.json"
+    }	
+},
+{
+    "request": {
+        "method": "delete",
+        "uri": {
+            "match": "/recommendations/\\d+"
+        }
+	},
+	"response": {
+        "status": 200,
+        "headers" : {
+          	"content-type" : "application/json"
+        },
+        "file": "resources/recommendations.json"
+    }
+}
+,{
+    "mount": {
+        "dir": "./",
+        "uri": "/"
+    }
+}]
